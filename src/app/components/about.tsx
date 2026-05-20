@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { User } from 'lucide-react';
-import profileImage from 'figma:asset/fab771ee7407842399c9055021727af7e2849571.png';
+import profileImage from '../../assets/profile.png';
 
 export function About() {
   return (

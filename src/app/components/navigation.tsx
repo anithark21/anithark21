@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import faviconImage from 'figma:asset/716ca45ea55fb5db1c38e9914b63e625873f657e.png';
+import faviconImage from '../../assets/favicon.png';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
